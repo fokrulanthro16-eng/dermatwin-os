@@ -9,7 +9,7 @@ import {
   SkinAnalysisResult
 } from '@/types/dermatwin';
 
-const NEBIUS_API_KEY = process.env.NEBIUS_API_KEY || '';
+const NEBIUS_API_KEY = process.env.NEBIUS_API_KEY || 'build_dummy_token';
 
 const NEBIUS_BASE_URL =
   process.env.NEBIUS_BASE_URL || 'https://api.tokenfactory.nebius.com';
